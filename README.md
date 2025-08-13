@@ -1,4 +1,5 @@
 # A comprehensive demo of Optimistic Updates in TanStack Query
+[Link to TanStack Query v5 Optimistic Updates Documentation](https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates)
 
 ## **Pessimistic vs Optimistic Updates in TanStack Query:**
 
