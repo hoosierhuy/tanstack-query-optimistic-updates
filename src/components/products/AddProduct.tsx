@@ -72,7 +72,9 @@ export default function AddProduct() {
 
     return (
         <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">Add New Product</h2>
+            <h2 className="text-2xl font-bold mb-4">
+                Add New Product (Pessimistic Update)
+            </h2>
 
             <form onSubmit={handleSubmit} className="space-y-4">
                 <section>

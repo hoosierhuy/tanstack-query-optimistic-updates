@@ -38,8 +38,8 @@ export default function OptimisticUpdateDemo() {
 
             // 🐢 SCENARIO 2: Slow Network (To see optimistic update clearly)
             if (demoMode === 'slow') {
-                console.info('🐢 Simulating slow network (5 second delay)...')
-                await new Promise((resolve) => setTimeout(resolve, 5000))
+                console.info('🐢 Simulating slow network (6 second delay)...')
+                await new Promise((resolve) => setTimeout(resolve, 6000))
                 const response = await fetch(
                     'https://dummyjson.com/products/add',
                     {
@@ -236,7 +236,7 @@ export default function OptimisticUpdateDemo() {
                             }
                             className="mr-2"
                         />
-                        <span className="font-medium">🐌 Slow Network</span> - 5
+                        <span className="font-medium">🐌 Slow Network</span> - 6
                         second delay to see Optimistic Update clearly
                     </label>
                     <label className="flex items-center">
@@ -372,8 +372,8 @@ export default function OptimisticUpdateDemo() {
                         detailed logs
                     </li>
                     <li>
-                        <strong>Watch the Product List</strong> on the left side
-                        while adding products
+                        <strong>Watch the Product List</strong> on the right
+                        side while adding products
                     </li>
                     <li>
                         <strong>Try Normal Mode:</strong> See instant feedback +

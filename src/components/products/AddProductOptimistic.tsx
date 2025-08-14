@@ -35,7 +35,7 @@ export default function AddProductOptimistic() {
             return response.json()
         },
 
-        // 🚀 2. ON_MUTATE - THE OPTIMISTIC UPDATE MAGIC
+        // 🚀 2. ON_MUTATE - THE OPTIMISTIC UPDATE "MAGIC"
         // This runs IMMEDIATELY when mutation is triggered (before API call)
 
         // AFTER: We immediately update the UI assuming success
@@ -46,7 +46,7 @@ export default function AddProductOptimistic() {
             )
 
             // Step 1: Cancel any outgoing re-fetches
-            // This prevents race conditions where a background refetch
+            // This prevents data race conditions where a background refetch
             // could overwrite our optimistic update
             await queryClient.cancelQueries({ queryKey: ['products'] })
             console.info('✅ Cancelled any pending queries')

@@ -13,6 +13,6 @@ The key difference is **when the UI updates**: pessimistic updates show changes 
 
 Some argue this creates **false expectations** about system performance, while others say it's simply **good UX design** that matches user mental models. The key is handling the "illusion breaking" moments (errors) gracefully so users don't feel deceived.
 
-The illusion works best when failures are rare - which is why optimistic updates are perfect for high-reliability operations like adding products, liking posts, or sending messages.
+The illusion works best when failures are rare - which is why optimistic updates are perfect for high-reliability operations like adding products, liking posts in social media, or sending messages.
 
 ## There will be a companion YouTube video tutorial with this repo
