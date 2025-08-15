@@ -15,4 +15,6 @@ Some argue this creates **false expectations** about system performance, while o
 
 The illusion works best when failures are rare - which is why optimistic updates are perfect for high-reliability operations like adding products, liking posts in social media, or sending messages.
 
-## There will be a companion YouTube video tutorial with this repo
+## The companion YouTube video tutorial with this repo is located here:
+[Link to YouTube Video](https://youtu.be/LhTxERrTWPM?si=oFNOeMfXh0ICoPJb)
+
