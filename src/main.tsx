@@ -16,9 +16,8 @@ if (rootElement) {
     createRoot(rootElement).render(
         <StrictMode>
             <QueryClientProvider client={queryClient}>
-                <ReactQueryDevtools />
-                <ReactQueryDevtools initialIsOpen={false} />
                 <App />
+                <ReactQueryDevtools initialIsOpen={false} />
             </QueryClientProvider>
         </StrictMode>,
     )
