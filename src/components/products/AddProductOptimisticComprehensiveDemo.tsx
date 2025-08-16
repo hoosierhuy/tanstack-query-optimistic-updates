@@ -78,7 +78,8 @@ export default function OptimisticUpdateDemo() {
                 queryClient.getQueryData<ProductsQueryData>(['products'])
 
             // 🎭 CREATE REALISTIC OPTIMISTIC PRODUCT
-            // This is what your team will see appear INSTANTLY
+            // This is what your team will see appear INSTANTLY.
+            // The setQueryData function allows you to optimistically update the UI, this is where the "magic" happens.
             queryClient.setQueryData<ProductsQueryData>(
                 ['products'],
                 (oldData) => {
